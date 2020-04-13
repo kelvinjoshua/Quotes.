@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+
+/*body{
     background-color: lightgrey;
     
 }
@@ -17,3 +18,5 @@ h4{
 .vote{
     color: blueviolet;
 }
+*/
+@import "~bootstrap/dist/css/bootstrap.css"
