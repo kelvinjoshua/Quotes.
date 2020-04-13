@@ -18,7 +18,7 @@
         <div *ngFor='let property of property; let i=index' class="transform"><!--index var to  register index of the property item-->
                 {{property.message}}
                 
-            <button (click)='toggleauthor(i)'>Author</button><!--function made to bind the logic of the eventlistener at the respective index-->
+            <button (click)='toggleauthor(i)' >Author</button><!--function made to bind the logic of the eventlistener at the respective index-->
             <div *ngIf='property.showauthor'>
                        {{property.author}}
                 <p>
